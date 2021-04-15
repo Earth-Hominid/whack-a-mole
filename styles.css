@@ -1,3 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+body {
+  padding: 0; /* removes border so background stretches to whole area. */
+  margin: 0;
+  background: linear-gradient(90deg, #541B96, #007BFF)
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
