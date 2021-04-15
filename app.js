@@ -1,0 +1,14 @@
+const squares = document.querySelectorAll('.square');
+const mole = document.querySelector('.mole');
+const timeLeft = document.querySelector('#time-left') //searching for element with id we use #.
+const score = document.querySelector('#score')
+
+let result = 0;
+
+function randomSquare() {
+  squares.forEach(square => {
+    square.classList.remove('mole')
+  })
+
+  let randomPosition = squares[Math.floor(Math.random() * 9)]
+}
